@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pipetting Performance Workflow (Roche pRED project)</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 210mm;
+            margin: auto;
+        }
+        img {
+            max-width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        a {
+            text-decoration: none;
+            color: #0366d6;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pipetting Performance Workflow (Roche pRED project)</h1>
+        <p>This repository contains the source code for the pipetting performance workflow developed for the I2S and ADME chapters at Roche pRED. The presented workflow provides a precise and intuitive approach for testing the pipetting accuracy and precision of automated liquid handling systems. It was adapted for public use to work through a Jupyter notebook instead of the proprietary AutoLab platform used internally at Roche.</p>
+        <img src="output/workflow_overview.png" alt="Overview of the pipetting performance workflow.">
+        <p><em>Figure 1: Pipetting performance workflow steps. The gravimetric test was not implemented in the standalone version of the workflow which is provided here.</em></p>
+
+        <h2>Project overview</h2>
+        <p>Three distinct run options are provided to suit different scenarios and time constraints. Please refer to the following table when deciding on which one to choose. Use one of the linked notebooks depending on your choice:</p>
+
+        <table>
+            <tr>
+                <th>Quick run</th>
+                <th>Full run</th>
+                <th>8-channel run</th>
+            </tr>
+            <tr>
+                <td>96- or 384-channel heads<br>Uses <strong>1 microplate</strong><br>Takes <strong>20-30 minutes</strong><br>Quick performance check<br><a href="pipetting_performance_quick.ipynb">Quick run notebook</a><br><a href="https://arthurtheuer.github.io/pipetting_performance/example_report_quick.html">Quick example report</a></td>
+                <td>96- or 384-channel heads<br>Uses at least <strong>3 microplates</strong><br>Takes <strong>~45 minutes</strong><br>Thorough statistical analysis<br><a href="pipetting_performance_full.ipynb">Full run notebook</a><br><a href="https://arthurtheuer.github.io/pipetting_performance/example_report_full.html">Full example report</a></td>
+                <td>8- or single-channel heads<br>Uses <strong>1 microplate</strong><br>Takes <strong>20-30 minutes</strong><br>Thorough statistical analysis<br><a href="pipetting_performance_8channel.ipynb">8-channel run notebook</a><br><a href="https://arthurtheuer.github.io/pipetting_performance/example_report_8channel.html">8-channel example report</a></td>
+            </tr>
+        </table>
+
+        <p><em>Table 1: Comparison of different run mode options. Run one of them by selecting one of the linked notebooks. Open the example reports to get an idea of the expected output of each mode. These HTML reports are hosted via GitHub pages.</em></p>
+
+        <h2>Repository structure</h2>
+        <p><a href="templates">templates</a> &nbsp; Collection of templates for using the workflow<br>
+        <a href="code">code</a> &nbsp; Functions accessed by notebooks<br>
+        <a href="data">data</a> &nbsp; Example input data<br>
+        <a href="output">output</a> &nbsp; Example output HTML reports<br>
+        <a href="transformations">transformations</a> &nbsp; Code produced at Roche</p>
+
+        <img src="output/pipetting_performance.png" alt="Pipetting performance BPMN workflow modeled in Camunda Modeler.">
+        <p><em>Figure 2: Pipetting performance BPMN workflow modeled in Camunda Modeler. The AutoLab integration was configured with this BPMN.</em></p>
+    </div>
+</body>
+</html>
