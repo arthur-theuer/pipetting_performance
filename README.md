@@ -1,5 +1,5 @@
 # Pipetting Performance Workflow (Roche pRED project)
-This repository contains the source code for the pipetting performance workflow developed for the I2S and ADME chapters at Roche pRED. The presented workflow provides precise and intuitive approach for testing the pipetting accuracy and precision of automated liquid handling systems. It was adapted for public use to work through a Jupyter notebook instead of the proprietary AutoLab platform used internally at Roche.
+This repository contains the source code for the pipetting performance workflow developed for the I2S and ADME chapters at Roche pRED. The presented workflow provides a precise and intuitive approach for testing the pipetting accuracy and precision of automated liquid handling systems. It was adapted for public use to work through a Jupyter notebook instead of the proprietary AutoLab platform used internally at Roche.
 
 <img src="output/workflow_overview.png" alt="Overview of the pipetting performance workflow.">
 
