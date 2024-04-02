@@ -14,7 +14,7 @@ Three distinct run options are provided to suit different scenarios and time con
 | Uses **1 microplate**    | Uses at least **3 microplates** | Uses **1 microplate**         |
 | Takes **20-30 minutes**  | Takes **~45 minutes**           | Takes **20-30 minutes**       |
 | Quick performance check  | Thorough statistical analysis   | Thorough statistical analysis |
-| <a href="pipetting_performance_quick.ipynb">`pipetting_performance_quick.ipynb`</a> | <a href="pipetting_performance_full.ipynb">`pipetting_performance_full.ipynb`</a> | <a href="pipetting_performance_8channel.ipynb">`pipetting_performance_8channel.ipynb`</a> |
+| <a href="pipetting_performance_quick.ipynb">`pipetting_performance_quick`</a> | <a href="pipetting_performance_full.ipynb">`pipetting_performance_full`</a> | <a href="pipetting_performance_8channel.ipynb">`pipetting_performance_8channel`</a> |
 
 ***Table 1:** Comparison of different run mode options. Run one of them by selecting one of the linked notebooks.*
 
