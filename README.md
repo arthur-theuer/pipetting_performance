@@ -3,7 +3,7 @@ This repository contains the source code for the pipetting performance workflow 
 
 <img src="output/workflow_overview.png" alt="Overview of the pipetting performance workflow.">
 
-***Figure 1:** Pipetting performance workflow steps. The gravimetric test was not implemented in the standalone version of the workflow.*
+***Figure 1:** Pipetting performance workflow steps. The gravimetric test was not implemented in the standalone version of the workflow which is provided here.*
 
 ## Project overview
 Three distinct run options are provided to suit different scenarios and time constraints. Please refer to the following table when deciding on which one to choose. Use one of the linked notebooks depending on your choice:
