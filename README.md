@@ -15,7 +15,7 @@ Three distinct run options are provided to suit different scenarios and time con
 | Takes **20-30 minutes**  | Takes **~45 minutes**           | Takes **20-30 minutes**       |
 | Quick performance check  | Thorough statistical analysis   | Thorough statistical analysis |
 | <a href="pipetting_performance_quick.ipynb">`Quick run notebook`</a> | <a href="pipetting_performance_full.ipynb">`Full run notebook`</a> | <a href="pipetting_performance_8channel.ipynb">`8-channel run notebook`</a> |
-| <a href="https://arthurtheuer.github.io/pipetting_performance/example_report_quick.html">`Quick example report`</a> | <a href="https://arthurtheuer.github.io/pipetting_performance/example_report_full.html">`Full example report`</a> | <a href="https://arthurtheuer.github.io/pipetting_performance/example_report_8channel.html">`8-channel example report`</a> |
+| <a href="https://arthur-theuer.github.io/pipetting_performance/example_report_quick.html">`Quick example report`</a> | <a href="https://arthur-theuer.github.io/pipetting_performance/example_report_full.html">`Full example report`</a> | <a href="https://arthur-theuer.github.io/pipetting_performance/example_report_8channel.html">`8-channel example report`</a> |
 
 ***Table 1:** Comparison of different run mode options. Run one of them by selecting one of the linked notebooks. Open the example reports to get an idea of the expected output of each mode. These HTML reports are hosted via GitHub pages.*
 
